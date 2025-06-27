@@ -17,13 +17,13 @@ const scrollToTargetDiv: ScrollToTargetDiv = (target) => {
 
 export default function Navbar({ navItems }: NavbarProps) {
   return (
-    <div className='h-fit w-full flex py-6 pl-6 pr-24'>
+    <div className='h-fit w-full flex py-6 pl-6 pr-8'>
       <img src='/TSALogo.png' alt='TSA Logo' className='h-12' />
-      <div className='font-semibold text-xl text-white ml-auto'>
+      <div className='font-semibold text-xl mt-3 text-white ml-auto'>
         <Popover className='relative'>
-          <PopoverButton className='focus:outline-none hover:cursor-pointer inline-flex items-center gap-x-1 text-lg font-semibold text-white'>
+          <PopoverButton className='focus:outline-none hover:cursor-pointer inline-flex items-center gap-x-1 text-2xl font-semibold text-white'>
             <span>Menu</span>
-            <ChevronDownIcon aria-hidden='true' className='size-5' />
+            <ChevronDownIcon aria-hidden='true' className='size-8' />
           </PopoverButton>
           <PopoverPanel
             transition

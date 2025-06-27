@@ -30,8 +30,8 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className='flex py-12 max-h-screen w-full h-full px-6 items-center'>
-        <div className='w-full h-full flex items-center justify-center border border-gray-200 rounded-lg shadow-md'>
+      <div className='bg-sky-100 flex py-12 max-h-screen w-full h-full px-6 items-center'>
+        <div className='bg-sky-50 w-full h-full flex items-center justify-center border border-gray-200 rounded-lg shadow-md'>
           <div className='flex flex-col w-3/8 px-12 justify-center items-center'>
             <p className='text-2xl font-semibold'>Our Mission</p>
             <p className='text-lg text-center'>

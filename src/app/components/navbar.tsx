@@ -18,7 +18,7 @@ const scrollToTargetDiv: ScrollToTargetDiv = (target) => {
 export default function Navbar({ navItems }: NavbarProps) {
   return (
     <div className='h-fit w-full flex py-6 pl-6 pr-8'>
-      <img src='/TSALogo.png' alt='TSA Logo' className='h-12' />
+      <img src='/TSALeadersOfTmrw.png' alt='TSA Logo' className='h-20' />
       <div className='font-semibold text-xl mt-3 text-white ml-auto'>
         <Popover className='relative'>
           <PopoverButton className='focus:outline-none hover:cursor-pointer inline-flex items-center gap-x-1 text-2xl font-semibold text-white'>
